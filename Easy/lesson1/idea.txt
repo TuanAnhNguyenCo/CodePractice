@@ -1,0 +1,4 @@
+- Ta để ý răng nếu số ta đang xet không phải là sô chình phương thì khi nó có 1 nghiệm bên trái thì cũng sẽ có một
+nghiệm bên phải -> số nghiệm là chẵn
+- Đối với số chính phương thì nó có 1 nghiệm là căn bậc 2 chỉ tính là 1 nghiệm nên nó lẻ 1 nghiệm -> số nghiệm là lẻ
+- Số 1 cũng có nghiệm lẻ

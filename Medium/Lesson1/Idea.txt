@@ -1,0 +1,12 @@
+
+- Vì Lần ta bỏ số cuối thì nó cũng phải là số nguyên tố thì mới là số siêu nguyên tố được
+- => Số nguyên tố thì là số lẻ không phải số chẵn trừ số 2
+- Ý tưởng: Áp dụng quay lui
+
+Chú ý: Số đầu tiên sẽ là số từ bên phải 
+
+- Tạo 1 mảng [2,3,5,7] vì khi ta cắt số cuối thì số đầu tiên mới là số nguyên tố
+- Tạo 1 mảng các số lẻ [1,3,5,7,9]
+- Mỗi lần chay đệ quy thì ta sẽ thêm 1 số in [1,3,5,7,9] vào bên cạnh số mà đang xét. Kiểm tra nếu là số nguyên tố -> nó là số siêu nguyên tố -> thêm vào mảng specialPrime
+- Sau đó lại gọi đệ quy tiếp như trên
+- Nếu mà nó chạy hết nó sẽ tự quay lui
