@@ -1,0 +1,11 @@
+
+- Đầu tiên là phải tạo ra các chuỗi có độ dài là n chứa A và B
+- Sau đó sẽ đếm "AA..k" tức k số a liên tiếp. Chuỗi nào mà có nhiều hơn 1 hoặc không có "AA..k" sẽ bị loại ra
+- Ta có thể dùng Count của python
+- Sau khi count và loại thì ta chỉ còn các chuỗi định dạng là "....AA..k..AAABBB..." 
+- Vì ta dùng hàm count của python nên ta đếm chuỗi có N số A liên tiếp thì N+1 số A liên tiếp cũng thoả mãn
+- Giờ thì ta phải loại bỏ ngoại lệ đó
+- Bằng cách duyệt từng chuỗi còn lại và đếm xem trong 1 chuỗi thì sẽ có số lượng chữ số A liên tiếp lớn nhất là bao nhiều
+VD : "AAAABAA" thì nó sẽ là 4
+- Nếu nó bằng k thì thoả mãn còn nếu lớn hơn thì ta loại. Sẽ không có trường hợp bé hơn bỏi vì nó bé hơn thì đã bị loại ở bước trên
+- Kết thúc
