@@ -1,0 +1,7 @@
+Nếu là water or Fire thì sẽ gọi đến Air
+
+Còn nếu đang ở Air thì sẽ thử xem là nếu gọi đến fire có chết k nếu chét thì sẽ gọi đến water
+
+Cứ như thế cho đến khi chết
+
+

@@ -1,0 +1,10 @@
+Trò chơi rất đơn giản. Ban đầu, bạn có lượng máu 'H' và lượng giáp 'A'. Bất cứ lúc nào bạn cũng có thể sống ở bất kỳ nơi nào trong ba nơi - lửa, nước và không khí. Sau mỗi đơn vị thời gian, bạn phải thay đổi nơi sinh sống.
+ Ví dụ, nếu bạn hiện đang sống trong lửa, bạn có thể bước vào nước hoặc không khí.
+
+Nếu bạn bước lên không trung, sức khỏe của bạn tăng thêm 3 và áo giáp của bạn tăng thêm 2.
+Nếu bạn bước xuống nước, sức khỏe của bạn giảm 5 và áo giáp của bạn giảm 10.
+Nếu bạn bước vào lửa, sức khỏe của bạn giảm 20 và áo giáp của bạn tăng thêm 5.
+Nếu sức khỏe hoặc áo giáp của bạn trở thành <= 0, bạn sẽ chết ngay lập tức.
+
+Với H = 2, A = 10 thì dieHard(h,a) = 1.
+Giải thích: đầu tiên bạn chọn ô lửa. Tiếp theo sẽ di chuyển như sau: Fire(2,10) -> Air(5,12) -> Fire(-15,17) or Water(0,2) (end)
